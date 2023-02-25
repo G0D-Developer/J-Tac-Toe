@@ -37,9 +37,15 @@ public class TicTacToe implements ActionListener{
         button_panel.setLayout(new GridLayout(3,3));
         button_panel.setBackground(new Color(150,150,150));
 
+        for(int i=0;i<9;i++) {
+            buttons[i] = new JButton();
+            button_panel.add(buttons[i]);
+            buttons[i].setFont(new Font("MV Boli",Font.BOLD,120));           
+        }
+
         title_panel.add(textfield);
         frame.add(title_panel,BorderLayout.NORTH);
-
+        frame.add(button_panel);
     }
 
     @Override
