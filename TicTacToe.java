@@ -224,7 +224,7 @@ public class TicTacToe implements ActionListener{
         buttons[b].setBackground(Color.GREEN);
         buttons[c].setBackground(Color.GREEN);
 
-        for(int i=0;i<9;i+) {
+        for(int i=0;i<9;i++) {
             buttons[i].setEnabled(false);
         }
         textfield.setText("X wins");
@@ -235,7 +235,7 @@ public class TicTacToe implements ActionListener{
         buttons[b].setBackground(Color.GREEN);
         buttons[c].setBackground(Color.GREEN);
 
-        for(int i=0;i<9;i+) {
+        for(int i=0;i<9;i++) {
             buttons[i].setEnabled(false);
         }
         textfield.setText("O wins");
